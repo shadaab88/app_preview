@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 2,
+  "appName": "Link Plox",
+  "themeId": "clean-light",
+  "fontId": "template-default",
+  "connectedCanvas": false,
+  "locales": [
+    "en"
+  ],
+  "locale": "en",
+  "device": "ipad",
+  "orientation": "portrait",
+  "appIcon": "",
+  "slidesByDevice": {
+    "iphone": [
+      {
+        "id": "lp_ip_1_reel",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "Saw it in a Reel?\nFind it with Link Plox."
+        },
+        "screenshot": "/screenshots/apple/iphone/{locale}/01.png"
+      },
+      {
+        "id": "lp_ip_2_discover",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "Less searching.\nMore discovering."
+        },
+        "screenshot": "/screenshots/apple/iphone/{locale}/02.png",
+        "transforms": {
+          "device": {
+            "x": 153.18224783861672,
+            "y": 745.68,
+            "width": 1013.6355043227666,
+            "height": 2064.96,
+            "rotation": 0,
+            "zIndex": 3
+          },
+          "caption": {
+            "x": 118.1058139534884,
+            "y": 51.6906976744186,
+            "width": 1108.8,
+            "height": 487.55999999999995,
+            "rotation": 0,
+            "zIndex": 4
+          }
+        }
+      },
+      {
+        "id": "lp_ip_3_stores",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "One product.\nMore places to look."
+        },
+        "screenshot": "/screenshots/apple/iphone/{locale}/03.png"
+      },
+      {
+        "id": "lp_ip_4_match",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "Look closer.\nFind your match."
+        },
+        "screenshot": "/screenshots/apple/iphone/{locale}/04.png",
+        "transforms": {
+          "caption": {
+            "x": 109.7686046511628,
+            "y": 68.36511627906974,
+            "width": 1108.8,
+            "height": 487.55999999999995,
+            "rotation": 0,
+            "zIndex": 4
+          }
+        }
+      },
+      {
+        "id": "lp_ip_5_listings",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "Explore listings.\nChoose where to shop."
+        },
+        "screenshot": "/screenshots/uploaded/c116cd3a5cc18a0f.jpg"
+      },
+      {
+        "id": "lp_ip_6_history",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "Your finds.\nAll in one place."
+        },
+        "screenshot": "/screenshots/apple/iphone/{locale}/06.png",
+        "transforms": {
+          "caption": {
+            "x": 93.09418604651162,
+            "y": 64.19651162790699,
+            "width": 1108.8,
+            "height": 487.55999999999995,
+            "rotation": 0,
+            "zIndex": 4
+          }
+        }
+      }
+    ],
+    "android": [
+      {
+        "id": "lp_an_1_reel",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "Saw it in a Reel?\nFind it with Link Plox."
+        },
+        "screenshot": "/screenshots/android/phone/{locale}/01.png"
+      },
+      {
+        "id": "lp_an_2_discover",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "Less searching.\nMore discovering."
+        },
+        "screenshot": "/screenshots/android/phone/{locale}/02.png"
+      },
+      {
+        "id": "lp_an_3_stores",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "One product.\nMore places to look."
+        },
+        "screenshot": "/screenshots/android/phone/{locale}/03.png"
+      },
+      {
+        "id": "lp_an_4_match",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "Look closer.\nFind your match."
+        },
+        "screenshot": "/screenshots/android/phone/{locale}/04.png"
+      },
+      {
+        "id": "lp_an_5_listings",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "Explore listings.\nChoose where to shop."
+        },
+        "screenshot": "/screenshots/android/phone/{locale}/05.png"
+      },
+      {
+        "id": "lp_an_6_history",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "Your finds.\nAll in one place."
+        },
+        "screenshot": "/screenshots/android/phone/{locale}/06.png"
+      }
+    ],
+    "ipad": [
+      {
+        "id": "lp_ipad_1_reel",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "Saw it in a Reel?\nFind it with Link Plox."
+        },
+        "screenshot": "/screenshots/uploaded/b94cf2a9d36ff666.png",
+        "transforms": {
+          "device": {
+            "x": 269.14560000000006,
+            "y": 715.5200000000002,
+            "width": 1525.7087999999999,
+            "height": 1981.4399999999998,
+            "rotation": 0,
+            "zIndex": 3
+          }
+        }
+      },
+      {
+        "id": "lp_ipad_2_discover",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "Less searching.\nMore discovering."
+        },
+        "screenshot": "/screenshots/uploaded/1fe83ebee20cbcb4.png",
+        "transforms": {
+          "device": {
+            "x": 269.14560000000006,
+            "y": 715.5200000000002,
+            "width": 1525.7087999999999,
+            "height": 1981.4399999999998,
+            "rotation": 0,
+            "zIndex": 3
+          }
+        }
+      },
+      {
+        "id": "lp_ipad_3_stores",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "One product.\nMore places to look."
+        },
+        "screenshot": "/screenshots/uploaded/fd3ddc73046f6d68.png",
+        "transforms": {
+          "device": {
+            "x": 269.14560000000006,
+            "y": 715.5200000000002,
+            "width": 1525.7087999999999,
+            "height": 1981.4399999999998,
+            "rotation": 0,
+            "zIndex": 3
+          }
+        }
+      },
+      {
+        "id": "lp_ipad_4_match",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "Look closer.\nFind your match."
+        },
+        "screenshot": "/screenshots/uploaded/fe116679a10f5c2b.png",
+        "transforms": {
+          "device": {
+            "x": 269.14560000000006,
+            "y": 715.5200000000002,
+            "width": 1525.7087999999999,
+            "height": 1981.4399999999998,
+            "rotation": 0,
+            "zIndex": 3
+          }
+        }
+      },
+      {
+        "id": "lp_ipad_5_listings",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "Explore listings.\nChoose where to shop."
+        },
+        "screenshot": "/screenshots/uploaded/cc07802c8f514431.png",
+        "transforms": {
+          "device": {
+            "x": 269.14560000000006,
+            "y": 715.5200000000002,
+            "width": 1525.7087999999999,
+            "height": 1981.4399999999998,
+            "rotation": 0,
+            "zIndex": 3
+          }
+        }
+      },
+      {
+        "id": "lp_ipad_6_history",
+        "layout": "device-bottom",
+        "label": {},
+        "headline": {
+          "en": "Your finds.\nAll in one place."
+        },
+        "screenshot": "/screenshots/uploaded/57b75678c5b2b532.png",
+        "transforms": {
+          "device": {
+            "x": 269.14560000000006,
+            "y": 715.5200000000002,
+            "width": 1525.7087999999999,
+            "height": 1981.4399999999998,
+            "rotation": 0,
+            "zIndex": 3
+          }
+        }
+      }
+    ],
+    "tvos": [
+      {
+        "id": "s_muzel7zp_d",
+        "layout": "hero",
+        "label": {
+          "en": "MEET YOUR APP"
+        },
+        "headline": {
+          "en": "Made for\nthe living room."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_muzel7zp_e",
+        "layout": "split-landscape",
+        "label": {
+          "en": "FEATURE 01"
+        },
+        "headline": {
+          "en": "One idea\nper screen."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_muzel7zp_f",
+        "layout": "device-top",
+        "label": {
+          "en": "FEATURE 02"
+        },
+        "headline": {
+          "en": "Flip the contrast."
+        },
+        "screenshot": "",
+        "inverted": true
+      },
+      {
+        "id": "s_muzel7zp_g",
+        "layout": "no-device",
+        "label": {
+          "en": "MORE"
+        },
+        "headline": {
+          "en": "And so\nmuch more."
+        },
+        "screenshot": ""
+      }
+    ],
+    "watchos": [
+      {
+        "id": "s_muzel7zp_h",
+        "layout": "hero",
+        "label": {
+          "en": "MEET YOUR APP"
+        },
+        "headline": {
+          "en": "On your\nwrist."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_muzel7zp_i",
+        "layout": "device-bottom",
+        "label": {
+          "en": "FEATURE 01"
+        },
+        "headline": {
+          "en": "One glance.\nDone."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_muzel7zp_j",
+        "layout": "device-top",
+        "label": {
+          "en": "FEATURE 02"
+        },
+        "headline": {
+          "en": "Always\nwith you."
+        },
+        "screenshot": "",
+        "inverted": true
+      }
+    ],
+    "carplay": [
+      {
+        "id": "s_muzel7zp_k",
+        "layout": "split-landscape",
+        "label": {
+          "en": "CARPLAY"
+        },
+        "headline": {
+          "en": "Eyes on\nthe road."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_muzel7zp_l",
+        "layout": "device-bottom",
+        "label": {
+          "en": "FEATURE 01"
+        },
+        "headline": {
+          "en": "Everything, one tap away."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_muzel7zp_m",
+        "layout": "device-top",
+        "label": {
+          "en": "FEATURE 02"
+        },
+        "headline": {
+          "en": "Made for every drive."
+        },
+        "screenshot": "",
+        "inverted": true
+      }
+    ],
+    "mac": [
+      {
+        "id": "s_muzel7zp_n",
+        "layout": "hero",
+        "label": {
+          "en": "MEET YOUR APP"
+        },
+        "headline": {
+          "en": "Made for\nyour Mac."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_muzel7zp_o",
+        "layout": "split-landscape",
+        "label": {
+          "en": "FEATURE 01"
+        },
+        "headline": {
+          "en": "Everything in\none window."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_muzel7zp_p",
+        "layout": "device-top",
+        "label": {
+          "en": "FEATURE 02"
+        },
+        "headline": {
+          "en": "One shortcut away."
+        },
+        "screenshot": "",
+        "inverted": true
+      },
+      {
+        "id": "s_muzel7zp_q",
+        "layout": "two-devices",
+        "label": {
+          "en": "FEATURE 03"
+        },
+        "headline": {
+          "en": "Work across windows."
+        },
+        "screenshot": "",
+        "screenshotSecondary": ""
+      },
+      {
+        "id": "s_muzel7zq_r",
+        "layout": "no-device",
+        "label": {
+          "en": "MORE"
+        },
+        "headline": {
+          "en": "And so\nmuch more."
+        },
+        "screenshot": ""
+      }
+    ],
+    "android-7": [
+      {
+        "id": "lp_a7_1",
+        "layout": "hero",
+        "label": {},
+        "headline": {
+          "en": "Saw it in a Reel?\nFind it with Link Plox."
+        },
+        "screenshot": ""
+      }
+    ],
+    "android-10": [
+      {
+        "id": "lp_a10_1",
+        "layout": "hero",
+        "label": {},
+        "headline": {
+          "en": "Saw it in a Reel?\nFind it with Link Plox."
+        },
+        "screenshot": ""
+      }
+    ],
+    "feature-graphic": [
+      {
+        "id": "lp_fg_1",
+        "layout": "feature-graphic",
+        "label": {},
+        "headline": {
+          "en": "Find products from any reel."
+        },
+        "screenshot": ""
+      }
+    ]
+  },
+  "scene": {
+    "backdrop": "solid",
+    "span": false,
+    "decoration": "blobs",
+    "shadow": 45,
+    "glow": 0,
+    "tilt": 0,
+    "headlineWeight": 800,
+    "headlineScale": 0.7,
+    "headlineCase": "as-typed",
+    "captionAlign": "center"
+  },
+  "crossScreenMockupsByDevice": {
+    "iphone": [],
+    "ipad": [],
+    "android": [],
+    "android-7": [],
+    "android-10": [],
+    "feature-graphic": []
+  }
+}
